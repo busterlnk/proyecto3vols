@@ -1,7 +1,54 @@
-h1{
-    color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.color{
-    color: crimson;
+body {
+  font-family: Sans-serif;
 }
+
+header {
+  width: 99%;
+  height: 70px;
+  margin: 0px auto;
+  border-radius: 0px 0px 15px 15px;
+  background: grey;
+  display: flex;
+  align-items: center;
+}
+header .contenedor {
+  padding: 0 40px;
+}
+header .contenedor ul {
+  display: flex;
+  align-items: center;
+}
+header .contenedor ul li {
+  margin-right: 40px;
+  list-style-type: none;
+}
+header .contenedor ul li img {
+  width: 60px;
+}
+header .contenedor ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+header .contenedor ul li a:hover {
+  text-decoration: underline;
+}
+
+.main {
+  padding: 50px 60px;
+  background: #f2f2f2;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 35px;
+}
+
+/*# sourceMappingURL=index.css.map */
