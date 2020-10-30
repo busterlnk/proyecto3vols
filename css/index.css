@@ -17,6 +17,7 @@ header {
   display: fixed;
   position: fixed;
   align-items: center;
+  z-index: 1;
 }
 header .contenedor {
   padding: 0 40px;
@@ -44,14 +45,21 @@ header .contenedor ul li a:hover {
 
 .main {
   padding: 100px 20px;
-  background: #f2f2f2 url("../img/logo/patreon.png");
+  background: #f2f2f2 url("../img/fondo.jpg");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   height: 1500px;
 }
 .main .carrousel {
-  width: 98%;
+  width: 99%;
   height: 300px;
-  background: #000;
+  background: #000 url("../img/logo/workwithus.png");
+  background-position: 0px -150px;
+  background-size: auto;
+  background-repeat: no-repeat;
   position: relative;
+  z-index: 0;
   border-radius: 20px;
 }
 .main .carrousel h1 {
@@ -83,6 +91,7 @@ header .contenedor ul li a:hover {
 }
 .main .proyectos .azul {
   margin: auto 0%;
+  z-index: 0;
   position: absolute;
   background: #08083a;
 }
@@ -93,6 +102,54 @@ header .contenedor ul li a:hover {
 .main .proyectos .celeste {
   margin: 0% auto;
   background: #17d7e6;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 200px;
+  background: #000;
+  color: #fff;
+}
+footer .redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .redes .link {
+  font-size: 18px;
+  width: 50%;
+}
+footer .redes .link a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .redes .link a:hover {
+  text-decoration: underline;
+}
+footer .redes .contenedor {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 40px;
+}
+footer .redes .contenedor a {
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+footer .redes .contenedor .twitter:hover {
+  background: #55acee;
+}
+footer .redes .contenedor .facebook:hover {
+  background: #3b5998;
+}
+footer .redes .contenedor .github:hover {
+  background: #666666;
+}
+footer .redes .contenedor .instagram:hover {
+  background: #3f729b;
 }
 
 /*# sourceMappingURL=index.css.map */
