@@ -108,50 +108,92 @@ footer {
   padding: 10px 200px;
   background: #000;
   color: #fff;
-}
-footer .redes {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 footer .redes .link {
-  font-size: 18px;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  font-size: 22px;
 }
 footer .redes .link a {
+  padding: 2px;
   text-decoration: none;
   color: #fff;
 }
 footer .redes .link a:hover {
   text-decoration: underline;
 }
-footer .redes .contenedor {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0px 20px;
-  font-size: 40px;
+footer .contenedor {
+  font-size: 35px;
 }
-footer .redes .contenedor a {
+footer .contenedor a {
   padding: 10px 20px;
   color: #ffffff;
   border-radius: 3px;
 }
-footer .redes .contenedor .twitter:hover {
+footer .contenedor .twitter:hover {
   background: #55acee;
 }
-footer .redes .contenedor .facebook:hover {
+footer .contenedor .facebook:hover {
   background: #3b5998;
 }
-footer .redes .contenedor .github:hover {
+footer .contenedor .github:hover {
   background: #666666;
 }
-footer .redes .contenedor .instagram:hover {
+footer .contenedor .instagram:hover {
   background: #3f729b;
+}
+
+@media screen and (max-width: 900px) {
+  header .contenedor ul {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    padding: 0;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  footer .redes {
+    padding: 30px;
+  }
+  footer .contenedor {
+    padding: 30px;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header {
+    margin: 0;
+    width: 100%;
+    border-radius: 0px;
+    height: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+  }
+  header .contenedor ul {
+    flex-direction: column;
+  }
+  header .contenedor ul li {
+    margin-right: 0px;
+    padding: 30px;
+  }
+  header .contenedor ul li a {
+    font-size: 30px;
+  }
+
+  .main .proyectos {
+    height: auto;
+    width: auto;
+  }
+  .main .proyectos .circulo {
+    justify-content: space-around;
+    align-content: space-around;
+    margin: auto;
+    position: relative;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
