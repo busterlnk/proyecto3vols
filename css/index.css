@@ -89,20 +89,32 @@ header .contenedor ul li a:hover {
 }
 .main .proyectos .amarillo {
   margin: 0% auto;
+  background: rgba(255, 144, 0, 0.6);
+}
+.main .proyectos .amarillo:hover {
   background: #ff9000;
 }
 .main .proyectos .azul {
   margin: auto 0%;
   z-index: 0;
   position: absolute;
+  background: rgba(8, 8, 58, 0.6);
+}
+.main .proyectos .azul:hover {
   background: #08083a;
 }
 .main .proyectos .rojo {
   margin: auto 70%;
+  background: rgba(237, 28, 16, 0.6);
+}
+.main .proyectos .rojo:hover {
   background: #ed1c10;
 }
 .main .proyectos .celeste {
   margin: 0% auto;
+  background: rgba(23, 215, 230, 0.6);
+}
+.main .proyectos .celeste:hover {
   background: #17d7e6;
 }
 
