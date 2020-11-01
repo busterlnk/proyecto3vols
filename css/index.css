@@ -98,7 +98,7 @@ header .contenedor ul li a:hover {
   margin: auto 0%;
   z-index: 0;
   position: absolute;
-  background: rgba(8, 8, 58, 0.6);
+  background: rgba(8, 8, 58, 0.4);
 }
 .main .proyectos .azul:hover {
   background: #08083a;
