@@ -1,0 +1,152 @@
+header {
+  width: 99%;
+  height: 70px;
+  margin: 0px 0.5%;
+  border-radius: 0px 0px 15px 15px;
+  background: grey;
+  display: fixed;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+}
+header .contenedor {
+  padding: 0 40px;
+}
+header .contenedor ul {
+  display: flex;
+  align-items: center;
+}
+header .contenedor ul li {
+  margin-right: 40px;
+  list-style-type: none;
+}
+header .contenedor ul li img {
+  width: 60px;
+}
+header .contenedor ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+header .contenedor ul li a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  padding: 10px 200px;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .redes .link {
+  font-size: 22px;
+}
+footer .redes .link a {
+  padding: 2px;
+  text-decoration: none;
+  color: #fff;
+}
+footer .redes .link a:hover {
+  text-decoration: underline;
+}
+footer .contenedor {
+  font-size: 35px;
+}
+footer .contenedor a {
+  padding: 10px 20px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+footer .contenedor .twitter:hover {
+  background: #55acee;
+}
+footer .contenedor .facebook:hover {
+  background: #3b5998;
+}
+footer .contenedor .github:hover {
+  background: #666666;
+}
+footer .contenedor .instagram:hover {
+  background: #3f729b;
+}
+
+.main {
+  padding: 100px 20px;
+  background: #f2f2f2 url("../img/logo/background.png");
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main .carrousel {
+  width: 99%;
+  height: 300px;
+  padding-left: 50%;
+  padding-top: 100px;
+  padding-right: 30px;
+  background: #000 url("../img/logo/workwithus.png");
+  background-position: 0px -150px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 0;
+  border-radius: 20px;
+}
+.main .carrousel h1 {
+  text-align: right;
+  font-size: 35px;
+  color: #fff;
+}
+.main .proyectos {
+  width: 500px;
+  height: 450px;
+  margin: 50px;
+  padding: 0;
+}
+.main .proyectos .circulo {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+.main .proyectos .amarillo {
+  margin: 0% auto;
+  background: rgba(255, 144, 0, 0.6);
+}
+.main .proyectos .amarillo:hover {
+  background: #ff9000;
+}
+.main .proyectos .azul {
+  margin: auto 0%;
+  z-index: 0;
+  position: absolute;
+  background: rgba(8, 8, 58, 0.4);
+}
+.main .proyectos .azul:hover {
+  background: #08083a;
+}
+.main .proyectos .rojo {
+  margin: auto 70%;
+  background: rgba(237, 28, 16, 0.6);
+}
+.main .proyectos .rojo:hover {
+  background: #ed1c10;
+}
+.main .proyectos .celeste {
+  margin: 0% auto;
+  background: rgba(23, 215, 230, 0.6);
+}
+.main .proyectos .celeste:hover {
+  background: #17d7e6;
+}
+
+/*# sourceMappingURL=aboutUs.css.map */
