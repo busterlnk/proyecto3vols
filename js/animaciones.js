@@ -18,6 +18,10 @@ $(document).ready(function(){
             width: '80%',
             height: '100%'
         });
+        $(this).children('.descript').show();
+        $(this).children('.descript').css({
+            padding: '30px'
+        });
     });
 
     $('.circulo').on('mouseleave', function(){
@@ -31,5 +35,6 @@ $(document).ready(function(){
             borderRadius: '100%'
         });
         $(this).siblings().show();
+        $(this).children('.descript').hide();
     });
 });
