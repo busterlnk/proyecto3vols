@@ -16,7 +16,8 @@ $(document).ready(function(){
         });
         $(this).parent().css({
             width: '80%',
-            height: '100%'
+            height: '100%',
+            overflow: 'hidden'
         });
         $(this).children('.descript').show();
         $(this).children('.descript').css({
@@ -32,7 +33,8 @@ $(document).ready(function(){
         });
         $(this).css({
             position: 'relative',
-            borderRadius: '100%'
+            borderRadius: '100%',
+            overflow: 'auto'
         });
         $(this).siblings().show();
         $(this).children('.descript').hide();
