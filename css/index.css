@@ -80,25 +80,42 @@ header .contenedor ul li a:hover {
   height: 150px;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
 }
 .main .proyectos .circulo:hover {
-  background: #ff9000;
   cursor: pointer;
+}
+.main .proyectos .circulo p {
+  text-align: center;
+  justify-content: center;
 }
 .main .proyectos .circulo .descript {
   font-size: 16px;
   display: none;
 }
+.main .proyectos .circulo .close {
+  display: none;
+  text-align: right;
+  position: relative;
+  margin-top: -60px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+}
+.main .proyectos .circulo .close .cross {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.main .proyectos .circulo .close .cross:hover {
+  background: #000;
+}
 .main .proyectos .amarillo {
   margin: 0% auto;
   border-radius: 100%;
-  background: rgba(255, 144, 0, 0.6);
+  background: #ff9000;
 }
 .main .proyectos .amarillo:hover {
   background: #ff9000;
@@ -107,7 +124,7 @@ header .contenedor ul li a:hover {
   margin: auto 0%;
   border-radius: 100%;
   float: left;
-  background: rgba(8, 8, 58, 0.6);
+  background: #08083a;
 }
 .main .proyectos .azul:hover {
   background: #08083a;
@@ -115,7 +132,7 @@ header .contenedor ul li a:hover {
 .main .proyectos .rojo {
   float: right;
   border-radius: 100%;
-  background: rgba(237, 28, 16, 0.6);
+  background: #ed1c10;
 }
 .main .proyectos .rojo:hover {
   background: #ed1c10;

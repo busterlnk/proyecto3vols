@@ -32,22 +32,35 @@
             height: 150px
             display: flex
             flex-direction: column
-            align-items: center
             justify-content: center
-            text-align: center
             color: #fff
             font-size: 18px
             font-weight: 600
             &:hover
-                background: rgba(255, 144, 0, 1)
                 cursor: pointer
+            p
+                text-align: center
+                justify-content: center
             .descript
                 font-size: 16px
                 display: none
+            .close
+                display: none
+                text-align: right
+                position: relative
+                margin-top: -60px
+                margin-right: 50px
+                margin-bottom: 30px
+                .cross
+                    padding: 10px
+                    font-size: 20px
+                    border-radius: 100%      
+                    &:hover
+                        background: #000
         .amarillo
             margin: 0% auto
             border-radius: 100%
-            background: rgba(255, 144, 0, .6)
+            background: rgba(255, 144, 0, 1)
             &:hover
                 background: rgba(255, 144, 0, 1)
 
@@ -55,14 +68,14 @@
             margin: auto 0%
             border-radius: 100%
             float: left
-            background: rgba(8, 8, 58, .6)
+            background: rgba(8, 8, 58, 1)
             &:hover
                 background: rgba(8, 8, 58, 1)
 
         .rojo
             float: right
             border-radius: 100%
-            background: rgba(237, 28, 16, .6)
+            background: rgba(237, 28, 16, 1)
             &:hover
                 background: rgba(237, 28, 16, 1)
         
