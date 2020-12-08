@@ -19,30 +19,52 @@ header {
   align-items: center;
   z-index: 1;
 }
-header .contenedor {
+header .container {
   padding: 0 40px;
 }
-header .contenedor ul {
+header .container ul {
   display: flex;
   align-items: center;
 }
-header .contenedor ul li {
+header .container ul li {
   margin-right: 40px;
   list-style-type: none;
 }
-header .contenedor ul li img {
+header .container ul li img {
   width: 60px;
 }
-header .contenedor ul li a {
+header .container ul li a {
   display: inline-block;
   text-decoration: none;
   color: #ffffff;
   font-size: 20px;
 }
-header .contenedor ul li a:hover {
+header .container ul li a:hover {
   text-decoration: underline;
 }
 
+@keyframes largeCircle {
+  from {
+    width: 150px;
+    height: 150px;
+    font-size: 18px;
+  }
+  to {
+    width: 175px;
+    height: 175px;
+    font-size: 21px;
+  }
+}
+@keyframes info {
+  from {
+    width: 175px;
+    height: 175px;
+  }
+  to {
+    width: 80%;
+    height: 80%;
+  }
+}
 .main {
   padding: 100px 20px;
   background: #f2f2f2 url("../img/logo/background.png");
@@ -69,13 +91,58 @@ header .contenedor ul li a:hover {
   font-size: 35px;
   color: #fff;
 }
-.main .proyectos {
+.main .projects {
   width: 80%;
-  height: 300px;
+  height: 100%;
   margin: 50px;
   padding: 0;
 }
-.main .proyectos .circulo {
+.main .projects .descript {
+  display: none;
+}
+.main .projects .close {
+  display: none;
+}
+.main .projects .large {
+  animation-name: info;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  display: block;
+  position: relative;
+  border-radius: 2px;
+  padding: 20px 40px 60px 40px;
+  width: 100%;
+  justify-content: center;
+}
+.main .projects .large .descript {
+  display: block;
+  font-size: 16px;
+  color: #fff;
+  text-align: justify;
+}
+.main .projects .large .close {
+  display: inline-block;
+  color: #fff;
+  text-align: right;
+  position: relative;
+}
+.main .projects .large .close .cross {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+.main .projects .large .close .cross:hover {
+  background: #000;
+}
+.main .projects .large .title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 500;
+}
+.main .projects .circle {
   width: 150px;
   height: 150px;
   display: flex;
@@ -84,57 +151,52 @@ header .contenedor ul li a:hover {
   color: #fff;
   font-size: 18px;
   font-weight: 600;
+  border-radius: 100%;
 }
-.main .proyectos .circulo:hover {
+.main .projects .circle:hover {
   cursor: pointer;
+  animation-name: largeCircle;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
 }
-.main .proyectos .circulo p {
+.main .projects .circle p {
   text-align: center;
   justify-content: center;
 }
-.main .proyectos .circulo .descript {
-  font-size: 16px;
+.main .projects .circle .descript {
   display: none;
 }
-.main .proyectos .circulo .close {
+.main .projects .circle .close {
   display: none;
-  text-align: right;
-  position: relative;
-  margin-top: -60px;
-  margin-right: 50px;
-  margin-bottom: 30px;
 }
-.main .proyectos .circulo .close .cross {
+.main .projects .circle .close .cross {
   padding: 10px;
   font-size: 20px;
   border-radius: 100%;
 }
-.main .proyectos .circulo .close .cross:hover {
+.main .projects .circle .close .cross:hover {
   background: #000;
 }
-.main .proyectos .amarillo {
+.main .projects .yellow {
   margin: 0% auto;
-  border-radius: 100%;
   background: #ff9000;
 }
-.main .proyectos .amarillo:hover {
+.main .projects .yellow:hover {
   background: #ff9000;
 }
-.main .proyectos .azul {
+.main .projects .blue {
   margin: auto 0%;
-  border-radius: 100%;
   float: left;
   background: #08083a;
 }
-.main .proyectos .azul:hover {
+.main .projects .blue:hover {
   background: #08083a;
 }
-.main .proyectos .rojo {
+.main .projects .red {
   float: right;
-  border-radius: 100%;
   background: #ed1c10;
 }
-.main .proyectos .rojo:hover {
+.main .projects .red:hover {
   background: #ed1c10;
 }
 
@@ -147,35 +209,35 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
-footer .redes .link {
+footer .social .link {
   font-size: 22px;
 }
-footer .redes .link a {
+footer .social .link a {
   padding: 2px;
   text-decoration: none;
   color: #fff;
 }
-footer .redes .link a:hover {
+footer .social .link a:hover {
   text-decoration: underline;
 }
-footer .contenedor {
+footer .container {
   font-size: 35px;
 }
-footer .contenedor a {
+footer .container a {
   padding: 10px 20px;
   color: #ffffff;
   border-radius: 3px;
 }
-footer .contenedor .twitter:hover {
+footer .container .twitter:hover {
   background: #55acee;
 }
-footer .contenedor .facebook:hover {
+footer .container .facebook:hover {
   background: #3b5998;
 }
-footer .contenedor .github:hover {
+footer .container .github:hover {
   background: #666666;
 }
-footer .contenedor .instagram:hover {
+footer .container .instagram:hover {
   background: #3f729b;
 }
 
