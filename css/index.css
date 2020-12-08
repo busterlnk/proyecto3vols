@@ -242,7 +242,7 @@ footer .container .instagram:hover {
 }
 
 @media screen and (max-width: 900px) {
-  header .contenedor ul {
+  header .container ul {
     flex-wrap: wrap;
   }
 
@@ -255,10 +255,10 @@ footer .container .instagram:hover {
     padding-top: 20px;
     flex-wrap: wrap;
   }
-  footer .redes {
+  footer .social {
     padding: 30px;
   }
-  footer .contenedor {
+  footer .container {
     padding: 30px;
     font-size: 50px;
   }
@@ -274,23 +274,23 @@ footer .container .instagram:hover {
     justify-content: left;
     align-content: left;
   }
-  header .contenedor ul {
+  header .container ul {
     flex-direction: column;
   }
-  header .contenedor ul li {
+  header .container ul li {
     border-bottom: 1px solid #fff;
     margin-right: 0px;
     padding: 30px;
   }
-  header .contenedor ul li a {
+  header .container ul li a {
     font-size: 30px;
   }
 
-  .main .proyectos {
+  .main .projects {
     height: auto;
     width: auto;
   }
-  .main .proyectos .circulo {
+  .main .projects .circle {
     justify-content: space-around;
     align-content: space-around;
     margin: auto;
@@ -302,10 +302,10 @@ footer .container .instagram:hover {
     padding-top: 20px;
     flex-wrap: wrap;
   }
-  footer .redes {
+  footer .social {
     padding: 30px;
   }
-  footer .contenedor {
+  footer .container {
     padding: 30px;
     font-size: 70px;
   }
