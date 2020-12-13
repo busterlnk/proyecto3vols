@@ -48,23 +48,23 @@ header .container ul li a:hover {
   min-height: 600px;
   background: #f2f2f2 url("../img/logo/background.png");
 }
-.main .description {
-  background: #fff;
-  color: #000;
-  opacity: 40%;
-  height: 200px;
-  border-radius: 10px;
-  padding: 20px;
-  padding-left: 40px;
+.main .form {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
 }
-.main .description h1 {
-  font-size: 30px;
-  margin-top: 20px;
-  text-decoration: underline;
+.main .form label {
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.main .form .email, .main .form textarea {
+  padding: 10px;
   margin-bottom: 20px;
-}
-.main .description p {
-  font-size: 18px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 14px;
 }
 
 footer {
@@ -178,4 +178,4 @@ footer .container .instagram:hover {
   }
 }
 
-/*# sourceMappingURL=aboutUs.css.map */
+/*# sourceMappingURL=contactUs.css.map */
