@@ -67,6 +67,7 @@ header .container ul li a:hover {
 }
 .main {
   padding: 100px 20px;
+  min-height: 600px;
   background: #f2f2f2 url("../img/logo/background.png");
   display: flex;
   align-items: center;
@@ -202,8 +203,7 @@ header .container ul li a:hover {
 
 footer {
   width: 100%;
-  padding: 10px 200px;
-  margin-bottom: -20px;
+  padding: 20px 200px;
   background: #000;
   color: #fff;
   display: flex;
