@@ -1,0 +1,25 @@
+.main {
+    padding: 100px 20px;
+    min-height: 600px;
+    background: #f2f2f2 url("../img/logo/background.png");
+}
+.main .description {
+    width: 90%;
+    background: #fff;
+    color: #000;
+    opacity: 40%;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 20px;
+    padding-left: 40px;
+}
+.main .description h1 {
+    font-size: 30px;
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+.main .description p {
+    font-size: 18px;
+}

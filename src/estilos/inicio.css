@@ -26,9 +26,9 @@
     color: #fff;
   }
   .main .projects {
-    width: 90%;
+    width: 95%;
     height: 100%;
-    margin: 50px;
+    margin-bottom: 20px;
     padding: 0;
   }
 
@@ -44,13 +44,14 @@
     text-align: justify;
   }
   .main .projects .circle {
-    width: 90%px;
+    width: 95%;
     height: 150px;
     padding: 30px;
     color: #fff;
     font-size: 18px;
     font-weight: 600;
-    margin: 20px 10px;
+    margin: 20px 0px;
+    border-radius: 20px;
   }
   .main .projects .circle p {
     text-align: left;
