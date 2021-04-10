@@ -1,5 +1,4 @@
 import React from 'react';
-import styled from 'styled-components';
 import './../estilos/inicio.css';
 
 const Inicio = () => {
